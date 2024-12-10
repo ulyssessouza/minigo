@@ -7,6 +7,7 @@ import (
 
 var S = fmt.Sprintf
 var SN = fmt.Sprintln
+var SC = fmt.Scanf
 
 var F = fmt.Fprintf
 var FN = fmt.Fprintln
