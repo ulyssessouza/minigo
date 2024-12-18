@@ -52,3 +52,7 @@ func N3[T any](_, _ any, third T, rest ...any) T {
 	}
 	return third
 }
+
+func XOR(x, y bool) bool {
+	return (x || y) && !(x && y)
+}
