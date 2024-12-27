@@ -56,3 +56,7 @@ func N3[T any](_, _ any, third T, rest ...any) T {
 func XOR(x, y bool) bool {
 	return (x || y) && !(x && y)
 }
+
+func PTR[T any](v T) *T {
+	return &v
+}
